@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS `nis1_db` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-use nis1_db;
+CREATE DATABASE IF NOT EXISTS `nis2_db` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+use nis2_db;
 CREATE TABLE `asset` (
   `id` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
   `nome` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
